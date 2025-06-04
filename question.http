@@ -1,0 +1,35 @@
+# CREATE
+POST http://localhost:3333/questions
+Content-Type: application/json
+
+{
+  "title": "NodeJS",
+  "content": "Estudando como criar uma API REST",
+  "userId": "9920b745-b89f-418c-8196-6605fb7c0297"
+}
+
+########
+
+# INDEX 
+GET  http://localhost:3333/questions
+
+########
+
+
+# UPDATE
+PUT http://localhost:3333/questions/dd9aefc9-f683-40cd-86ae-1eab251bcbe8
+Content-Type: application/json
+
+{
+  "title": "Prisma",
+  "content": "DATABASE"
+}
+
+########
+
+
+# DELETE
+DELETE http://localhost:3333/questions/aa3c8634-47bb-4b38-92dc-b1c3927c7bb9
+
+
+########

@@ -1,0 +1,19 @@
+# POST
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "name": "ines",
+  "email": "ines@gmail.com"
+}
+
+########
+
+# GET 
+GET http://localhost:3333/users
+
+
+########
+
+# GET BY ID
+GET http://localhost:3333/users/9920b745-b89f-418c-8196-6605fb7c0297
